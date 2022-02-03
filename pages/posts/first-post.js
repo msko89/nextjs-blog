@@ -8,12 +8,12 @@ export default function FirstPost() {
   const router = useRouter();
 
   useEffect(() => {
-    router.push('/posts/first-post/?counter=10', undefined, { shallow: true });
+    // router.push('/posts/first-post/?counter=10', undefined, { shallow: true });
   }, []);
 
-  useEffect(() => {
-    // alert(router.query.counter);
-  }, [router.query.counter]);
+  // useEffect(() => {
+  //   // alert(router.query.counter);
+  // }, [router.query.counter]);
 
   return (
     <>
