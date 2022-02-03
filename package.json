@@ -26,5 +26,10 @@
     "@testing-library/react": "^12.1.2",
     "cypress": "^9.4.1",
     "jest": "^27.4.7"
-  }
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 11"
+  ]
 }
