@@ -12,7 +12,7 @@ export default function FirstPost() {
   }, []);
 
   useEffect(() => {
-    alert(router.query.counter);
+    // alert(router.query.counter);
   }, [router.query.counter]);
 
   return (

@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 8080"
+    "start": "next start -p 8080",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "classnames": "^2.3.1",
@@ -18,5 +19,8 @@
     "remark-html": "^15.0.0",
     "sass": "^1.43.4",
     "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "cypress": "^9.4.1"
   }
 }
